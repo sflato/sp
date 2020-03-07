@@ -19,9 +19,10 @@ let arr = [];
 var timer = setInterval(imgTimer, 500);
 
 //this function reloads the page
- setTimeout(function(){
+ /*setTimeout(function(){
 window.location.reload(1);
 }, 30000);
+*/
 
 function imgTimer() {
   //populates the first array
@@ -396,7 +397,7 @@ function imgTimer() {
   clearInterval(timer);
 }
 
-var timer2 = setInterval(randomimagepicker, 2000);
+var timer2 = setInterval(randomimagepicker, 200);
 
 function randomimagepicker() {
   //row1

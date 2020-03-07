@@ -8,21 +8,24 @@
   left: 27%;
 }
 body{
+  /*
   background-color: black;
   animation: colorchange 50s; /* animation-name followed by duration in seconds*/
-  /* you could also use milliseconds (ms) or something like 2.5s */
-  -webkit-animation: colorchange 50s; /* Chrome and Safari */
+  /* you could also use milliseconds (ms) or something like 2.5s
+  -webkit-animation: colorchange 50s; /* Chrome and Safari
+  */
 }
 .img{
 
-  width: 120px;
-  height: 80px;
+
+  height: 50px;
+  width: 150px;
 
 }
 a{
   font-size:200%;
 }
-@keyframes colorchange
+/*@keyframes colorchange
 {
   0%   {background: black;}
   25%  {background: yellow;}
@@ -32,10 +35,11 @@ a{
 }
 
 @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-{
+/*{
   0%   {background: black;}
   25%  {background: yellow;}
   50%  {background: blue;}
   75%  {background: green;}
   100% {background: purple;}
 }
+*/
